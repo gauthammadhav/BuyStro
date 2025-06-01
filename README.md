@@ -1,12 +1,37 @@
-# React + Vite
+# BuyStro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BuyStro** is a simple and efficient web application for managing a list of products. It includes essential CRUD functionality, along with support for light and dark themes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create new products
+- Edit existing products
+- Delete products
+- Toggle between light and dark themes
+- HomePage to view all products
+- CreatePage for adding new products
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **Frontend**: React (powered by Vite)
+- **Backend**: Express.js (Node.js)
+- **Database**: MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/gauthammadhav/BuyStro.git
+cd BuyStro
+```
+### Install Dependencies and Start Development Server
+  ```bash
+  npm i
+  npm run dev
+  
+  
+
+
+
