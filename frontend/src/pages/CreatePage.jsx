@@ -78,7 +78,7 @@ const CreatePage = () => {
                 placeholder="Product Name"
                 name="name"
                 value={newProduct.name}
-                onChange={(e) => setNewProduct({ ...newProduct, name: e.target.value })}
+                onChange={(f) => setNewProduct({ ...newProduct, name: f.target.value })}
                 size="lg"
                 rounded="xl"
                 focusBorderColor="purple.400"
